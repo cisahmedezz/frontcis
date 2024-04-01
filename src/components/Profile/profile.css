@@ -1,0 +1,32 @@
+.profile-avatar {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(158, 158, 158);
+  border-radius: 100%;
+  margin-top: 30px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.tabs-container {
+  margin-top: 10px;
+}
+
+.table-row:hover {
+  /* background-color: #f7f7f7 !important; */
+  transition: 0.2s;
+}
+
+.table-row {
+  cursor: pointer !important;
+  transition: 0.2s;
+}
+
+@media (max-width: 600px) {
+  .profile-text {
+    font-size: 15px !important;
+  }
+}

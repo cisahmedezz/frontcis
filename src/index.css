@@ -1,0 +1,396 @@
+body {
+  background-color: #1c2228;
+}
+
+* {
+  font-family: Cairo !important;
+}
+.nav-logo {
+  max-height: 80px;
+  margin: 7px 0px;
+}
+
+.nav-logo-mobile {
+  display: none;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary {
+  color: #d62a33;
+}
+.bg-primary {
+  background-color: #d62a33;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  background-color: transparent;
+  border: 1px solid #555;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+  .nav-logo-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  .tabs-container {
+    zoom: 70%;
+    margin-top: 30px;
+  }
+}
+.dark ::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.social-icon {
+  font-size: 30px !important;
+  margin: 0px 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  scale: 1.1;
+  color: #d62a33;
+  transition: 0.3s ease;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #d62a33; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+}
+
+.todo-title-padding {
+  border: 1px solid #ddd;
+  margin: 0px 20px !important;
+  padding: 7px 10px;
+  margin-top: 8px !important;
+  border-radius: 4px;
+}
+
+.english-whatsapp-icon {
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 50px !important;
+  padding: 5px;
+  background-color: #12fc3d;
+  border-radius: 12px;
+}
+.arabic-whatsapp-icon {
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 50px !important;
+  padding: 5px;
+  background-color: #12fc3d;
+  border-radius: 12px;
+}
+
+input[type="date"]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type="date"]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  left: 0;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.drawer-title {
+  border-top: 1px solid #ddd;
+  margin: 0px 20px;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.drawer-wrapper {
+  margin: 0px 20px;
+}
+
+.hide-info {
+  max-height: 0.0001px;
+  overflow: hidden;
+  transition: 0.15s ease;
+}
+
+.show-info {
+  max-height: 1000px;
+  overflow: hidden;
+  transition: 1s ease;
+}
+
+.edit-icon {
+  color: #d62a33 !important;
+}
+
+.review hr {
+  margin: 25px 0px;
+}
+
+.counter {
+  display: flex;
+  border: 2px solid #fff;
+  width: 120px;
+}
+.counter .minus {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0px;
+  width: 50px !important;
+  cursor: pointer;
+}
+.counter .value {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 0px;
+  width: 50px !important;
+  cursor: pointer;
+}
+.counter .plus {
+  background-color: #d62a33;
+  color: #000;
+  padding: 10px 0px;
+  width: 50px !important;
+  cursor: pointer;
+}
+.checkout-box input {
+  background-color: transparent;
+  color: #fff;
+}
+.checkout-box input:focus {
+  background-color: transparent;
+  color: #fff;
+}
+.checkout-box button {
+  background-color: #5310e5;
+  border: none;
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 0px;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.payment-success-page * {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap");
+* {
+  /* font-family: 'Cairo', sans-serif; */
+}
+
+.print-content {
+  display: none;
+}
+
+.print-content {
+  direction: rtl;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.space-between {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pdf-header h3 {
+  text-align: center;
+}
+
+.fields h4 {
+  width: 50%;
+  min-width: 300px;
+  margin: 5px 0px;
+}
+
+.print-content tr,
+.print-content th,
+.print-content td {
+  border: 1px solid #000 !important;
+  padding: 5px 10px;
+}
+.print-content .no-border {
+  border: none !important;
+  padding: 5px 10px;
+}
+
+.prices-table * {
+  font-size: 12px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.num-col {
+  padding: 5px 40px;
+}
+
+.price-title {
+  text-align: right;
+}
+
+.cancelled {
+  padding: 5px;
+  border: 1px solid #000;
+  width: 450px;
+}
+
+.tiny-logo {
+  height: 16px;
+}
+
+h4 {
+  margin: 3.5px 0px !important;
+}
+/* @media(max-width: 768px) {
+    .fields {
+        width: 100% !important;
+    }
+} */
+
+@media print {
+  .hide-print {
+    display: none !important;
+  }
+  .print-content {
+    display: block;
+  }
+  * {
+    zoom: 99%;
+  }
+  .header,
+  .header-space {
+    margin-top: 20px;
+    padding-left: 20px !important;
+    height: 150px;
+    width: 85%;
+  }
+
+  .footer,
+  .footer-space {
+    height: 160px;
+    width: 85%;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+  @page {
+    margin: 2mm;
+  }
+  .break-print {
+    page-break-before: always;
+  }
+}

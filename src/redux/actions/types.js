@@ -1,0 +1,14 @@
+export const GET_USER_DATA = "GET_USER_DATA";
+export const UPDATE_USER_DATA = "UPDATE_USER_DATA";
+export const USER_LOGIN = "USER_LOGIN";
+export const LOGOUT = "LOGOUT";
+export const GET_MY_DATA = "GET_MY_DATA";
+export const GET_SLIDERS = "GET_SLIDERS";
+export const GET_CONTACT = "GET_CONTACT";
+export const GET_ABOUT = "GET_ABOUT";
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const LOADING = "LOADING";
+export const GET_HOME_PAGE = "GET_HOME_PAGE";
+export const GET_HOME_DATA = "GET_HOME_DATA";
+export const CHANGE_THEME_MODE = "CHANGE_THEME_MODE";
+export const LOGIN_FAILED = "LOGIN_FAILED";

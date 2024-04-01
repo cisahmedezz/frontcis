@@ -1,0 +1,24 @@
+/* ----------- Faded Header -------------- */
+.events-header {
+  height: 260px !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.events-header-inner {
+  height: 100%;
+  position: relative;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(252, 253, 253, 0.16),
+    rgb(255, 255, 255)
+  );
+}
+
+.events-header-inner h3 {
+  color: #016273;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  font-weight: bold;
+}

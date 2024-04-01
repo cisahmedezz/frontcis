@@ -1,0 +1,18 @@
+/* ----------- Faded Header -------------- */
+.events-header {
+  height: 260px !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.events-header-inner {
+  height: 100%;
+  position: relative;
+}
+
+.events-header-inner h3 {
+  position: absolute;
+  font-weight: 700 !important;
+  margin: 0px 20px;
+  margin-top: 200px;
+}
